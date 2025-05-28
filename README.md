@@ -28,7 +28,7 @@ This repo documents the process, templates, and infrastructure used for every sp
 * **Billing** integrated with **Stripe Checkout / Customer Portal**
 * **Observability**: CloudWatch dashboards + Log Insights presets
 * **Docs**: README, architecture diagram, 60‑min recorded hand‑off
-* **Full IP transfer** on final payment
+* **Full IP transfer** on final payment (free for first 2 founders)
 
 ---
 
