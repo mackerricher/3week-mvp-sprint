@@ -15,16 +15,16 @@
 
 > Compress a typical **3‑month agency build** into **3 weeks** by combining 10 years of full‑stack experience with modern AI scaffolding (Replit AI, GitHub Copilot, etc.).
 
-This repo documents the process, templates, and infrastructure used for every sprint. Two seed‑stage founders will road‑test the workflow **free** in exchange for public case studies.
+This repo documents the process, templates, and infrastructure used for every sprint. Two seed‑stage founders will road‑test the workflow **free** in exchange for public case studies and referral(s).
 
 ---
 
 ## 2 · Sprint Deliverables
 
 * **GitHub repo** with clean, typed monorepo code (apps/ + packages/)
-* **Live URL** (Vercel or AWS Amplify → CloudFront) + custom domain
-* **CI/CD** via GitHub Actions → AWS Lambda/Edge or Vercel
-* **Auth** (NextAuth or Auth0) + granular RBAC guard
+* **Live URL** (AWS Amplify → CloudFront) + custom domain
+* **CI/CD** via GitHub Actions → AWS Lambda/Edge
+* **Auth** AWS Cogntio
 * **Billing** integrated with **Stripe Checkout / Customer Portal**
 * **Observability**: CloudWatch dashboards + Log Insights presets
 * **Docs**: README, architecture diagram, 60‑min recorded hand‑off
@@ -63,9 +63,9 @@ This repo documents the process, templates, and infrastructure used for every sp
 
 ```
 ├── apps/
-│   └── web/               # Next.js 14 (Pages Router + App Router example)
+│   └── web/               # React SPA with Amplify library
 ├── packages/
-│   ├── api/               # tRPC routes
+│   ├── api/               # individual node js lambdas
 │   ├── ui/                # shared React components
 │   └── stripe/            # Stripe helpers & webhooks
 ├── infra/                 # AWS CDK stacks (Lambda, API GW, Dynamo, Cognito)
@@ -99,9 +99,9 @@ $ npm run dev    # concurrently runs web + api + CDK watcher
 ## 7 · Free Pilot Criteria
 
 1. Pre‑seed/Seed founder ≤ 90 days post‑raise
-2. ≤ 3 scoped epics (auth, CRUD dashboard, Stripe billing, etc.)
+2. ≤ 4 scoped epics (auth, CRUD dashboard, 1 Custom Feature (or Stripe billing), etc.)
 3. Daily Slack presence, 30‑min reviews Mon/Wed/Fri
-4. Agree to public case study + 3‑sentence testimonial
+4. Agree to public case study + 3‑sentence testimonial, and a least 1 referral
 
 *Ping* **david @ mackerrichersoftware.com** with subject `PILOT` or open an issue.
 
