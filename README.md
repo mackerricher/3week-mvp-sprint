@@ -1,13 +1,13 @@
 # 3-Week MVP Sprint
 
-**Lightning-fast, production‑ready MVPs built with Node.js **22.15** (current LTS), React 18 / Next.js 14, TypeScript & fully *serverless* AWS CDK — delivered in ≤ 21 days.**
+**Lightning-fast, production‑ready MVPs built with Node.js **22.15** (current LTS), React 18, TypeScript & fully *serverless* AWS CDK — delivered in ≤ 21 days.**
 
 |               |                                                                                                                  |
 | ------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **Status**    | `🚀 OPEN: 2 free pilot slots`                                                                                    |
-| **Flat Rate** | **\$32 000** (after pilots)                                                                                      |
-| **Stack**     | Node 22.15 · React 18 · Next.js 14 · AWS CDK v2 (Lambda + API GW) · Dynamo or Aurora Serverless · Stripe Billing |
-| **Contact**   | **runway @ example.io**                                                                                          |
+| **Flat Rate** | **\$32,000** (after pilots)                                                                                      |
+| **Stack**     | Node 22.15 · React 18 · AWS CDK v2 (Lambda + API GW + Cognito) · Dynamo or Aurora Serverless · Stripe Billing |
+| **Contact**   | **david @ mackerrichersoftware.com**                                                                                          |
 
 ---
 
