@@ -103,14 +103,10 @@ $ npm run dev    # concurrently runs web + api + CDK watcher
 3. Daily Slack presence, 30‑min reviews Mon/Wed/Fri
 4. Agree to public case study + 3‑sentence testimonial
 
-*Ping* **runway @ example.io** with subject `PILOT` or open an issue.
+*Ping* **david @ mackerrichersoftware.com** with subject `PILOT` or open an issue.
 
 ---
 
 ## 8 · License
 
-Template code in this repo is MIT‑licensed. Client code is owned by the client upon final payment.
-
----
-
-> Built with ❤️ & espresso in Hanford, CA — `UTC‑7 (PT)`
+Template code in this repo is MIT‑licensed. Client code is owned by the client upon final payment **first 2 clients free transfer**.
